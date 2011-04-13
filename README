@@ -2,6 +2,9 @@ install
 
 git clone git://github.com/georgeredinger/dotvim.git ~/.vim
 
-symlinks
   ln -s ~/.vim/vimrc ~/.vimrc
+
+  cd ~/.vim
+  git submodule init
+  git submodule update
 
