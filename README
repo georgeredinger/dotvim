@@ -1,0 +1,7 @@
+install
+
+git clone git://github.com/georgeredinger/dotvim.git ~/.vim
+
+symlinks
+  ln -s ~/.vim/vimrc ~/.vimrc
+
