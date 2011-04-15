@@ -1,5 +1,6 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 
 
