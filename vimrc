@@ -15,6 +15,12 @@ endif
 
 set number 
 syntax on
+set background=dark
+colorscheme solarized
+filetype off
+filetype on
 
-
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr>  
 
