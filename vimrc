@@ -16,11 +16,16 @@ endif
 set number 
 syntax on
 set background=dark
+" set background=light
 colorscheme solarized
+" colorscheme desert
 filetype off
 filetype on
-
+set tabstop=2
+set shiftwidth=2
+set foldenable
 map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr>  
+abbrev ff :! firefox %:p<cr>
 
